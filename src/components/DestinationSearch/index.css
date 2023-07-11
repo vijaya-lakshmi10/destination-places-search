@@ -1,0 +1,60 @@
+/* Write your CSS here */
+.bg-container{
+    height:150vh;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.destination-search-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.heading{
+    color:#252627;
+    font-family: "Roboto";
+    font-size:24px;
+    
+}
+.destination-search-bar{
+    display: flex;
+    background-color: #f1f5f9;
+    margin-left:20px;
+    border-radius: 10px;
+    margin-top:30px;
+    margin-bottom:30px;
+    margin-right:20px;
+}
+.serach-bar{
+    background-color: #f1f5f9;
+    color:#0f172a;
+    font-family:"Open Sans";
+    font-size:14px;
+    font-weight:400;
+    outline:none;
+    border:none;
+}
+.search-img{
+    height:30px;
+    width:30px;
+}
+.destination-items{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+@media screen and (min-width:768px){
+    .destination-items{
+        justify-content: flex-start;
+    }
+    .heading{
+        font-size: 36px;
+    }
+    .destination-search-container{
+        align-items: flex-start;
+    }
+}

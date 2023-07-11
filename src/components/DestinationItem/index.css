@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.destination-places{
+    list-style-type: none;
+    width:300px;
+    margin-right:20px;
+    margin-left:20px;
+    margin-bottom:40px;
+}
+.destination-images{
+    height: 200px;
+    width:300px; 
+}
+.destination-place-name{
+    color:#000000;
+    font-family: "Open Sans";
+    font-size:18px;
+}
+@media screen and (min-width:768px){
+    .destination-place-name{
+        font-size: 22px;
+    }
+}
